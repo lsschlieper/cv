@@ -237,7 +237,8 @@ ul {
   opacity: 1;
 }
 .panel p:last-child {
-  margin-bottom: 0;
+	margin-bottom: 0px;
+
 }
 .panel__block {
   height: 3px;
@@ -294,15 +295,18 @@ ul {
 */
 
 .home-content {
-	height: 90vh;
+	/* [disabled]height: 90vh; */
 	background-color: rgba(45, 58, 75, 0.5);
 	padding: 0px 60px;
 	position: relative;
-	margin: 10vh auto 0 auto;
+	margin-top: 1vh;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
 }
 
 .home-content h1 {
-	padding-top: 120px;
+	padding-top: 10px;
 	font-size: 32px;
 	text-transform: uppercase;
 	color: #fff;
@@ -314,14 +318,19 @@ ul {
 	font-size: 80px;
 	font-style: normal;
 	font-weight: 800;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 .home-content .home-box-content {
-  margin-top: 45px;
+	margin-top: 10px;
 	background-color: #455871;
 	position: relative;
 	right: -100px;
-	padding: 30px;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 5px;
 	display: inline-block;
 }
 
@@ -341,6 +350,7 @@ ul {
 	margin-top: 0px;
 	margin-bottom: 10px;
 	border-bottom: 2px solid #fff;
+	padding-top: 0px;
 }
 
 .home-content .left-text h4 em {
@@ -351,6 +361,7 @@ ul {
 .home-content .left-text p {
 	color: #fff;
 	margin-bottom: 25px;
+	padding-bottom: 0px;
 }
 
 .home-content .right-image {
@@ -360,7 +371,7 @@ ul {
 
 .list {
 	color: #fff;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 
 
